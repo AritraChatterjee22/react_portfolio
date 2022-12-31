@@ -12,12 +12,12 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant: #4c4c86;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #004040;
+    --color-bg-variant: #004040;
+    --color-primary: #80C080;
+    --color-primary-variant: #008040;
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: #C0FFC0;
 
     --transition: all 400ms ease;
 
@@ -42,7 +42,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/denim.webp);
+    background-image: url(../src/assets/background2.jpg);
 }
 
 

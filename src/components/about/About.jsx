@@ -21,24 +21,25 @@ const about = () => {
           <div className="about__cards">
             <article className='about__card'>
               <IoMdSchool className='about__icon'/>
-              <h5>Education</h5>
-              <small>Btech CSE</small>
+              <h5>Internships</h5>
+              <small>2 completed</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>2+</small>
+              <small>3+</small>
             </article>
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Fresher</small>
+              <small>4 months</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Suscipit neque consequatur blanditiis corrupti fugit est. Consequatur,
-            velit saepe amet est rerum assumenda, autem eum facere cupiditate ullam culpa tempora fugiat.
+          I am a proficient web developer having experience in HTML, CSS, JavaScript, Tailwind, MERN Stack with Redux.
+            I am also a budding software developer. I have worked with tools like git, npm, and docker.
+              I can work on both Windows and Linux. I also have a very basic knowledge of bash scripting.
+            I am a keen learner passionate about modern technology and eager to build a career in software development
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

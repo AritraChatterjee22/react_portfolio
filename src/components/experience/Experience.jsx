@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5>The skills I have</h5>
-      <h2>My Experience</h2>
+      <h2>My Stack</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -43,10 +43,19 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>React</h4>
+              <h4>React JS</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Tailwind CSS</h4>
               <small className='text-light'>Intermediete</small>
               </div>
             </article>
+   
           </div>
         </div>
         {/* End of Frontend */}
@@ -77,15 +86,15 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>PHP</h4>
-              <small className='text-light'>Familiar</small>
+              <h4>Express JS</h4>
+              <small className='text-light'>Intermediete</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>Java</h4>
-              <small className='text-light'>Familiar</small>
+              <h4>Java(Core)</h4>
+              <small className='text-light'>Intermediete</small>
               </div>
             </article>
           </div>
