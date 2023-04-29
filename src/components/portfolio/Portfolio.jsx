@@ -4,6 +4,8 @@ import IMG1 from "../../assets/portfolio1.webp";
 import IMG2 from "../../assets/weather_icon3.webp";
 import IMG3 from "../../assets/skills-portfolio-logo-vector.png";
 import IMG4 from "../../assets/uber-splash-icon.png";
+import IMG5 from "../../assets/netflix.png";
+
 const portfolio = () => {
   return (
     <section id="portfolio">
@@ -98,6 +100,23 @@ const portfolio = () => {
               rel="noreferrer"
             >
               Expo Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="portfolio image" />
+          </div>
+          <h3>Netflix Clone(Ongoing)</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/AritraChatterjee22/netflix_clone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
             </a>
           </div>
         </article>
