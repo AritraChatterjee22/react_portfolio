@@ -2,7 +2,8 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.webp";
 import IMG2 from "../../assets/weather_icon3.webp";
-import IMG3 from "../../assets/portfolio.jpg";
+import IMG3 from "../../assets/skills-portfolio-logo-vector.png";
+import IMG4 from "../../assets/uber-splash-icon.png";
 const portfolio = () => {
   return (
     <section id="portfolio">
@@ -72,6 +73,31 @@ const portfolio = () => {
               rel="noreferrer"
             >
               Github
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="portfolio image" />
+          </div>
+          <h3>React Native Uber Clone</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/AritraChatterjee22/Uber-Clone-App"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="exp://exp.host/@aritra23/uber-clone?release-channel=default"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Expo Live Demo
             </a>
           </div>
         </article>
