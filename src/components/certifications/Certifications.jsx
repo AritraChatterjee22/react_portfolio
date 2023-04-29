@@ -1,6 +1,5 @@
-import React from 'react'
-import './certifications.css'
-
+import React from "react";
+import "./certifications.css";
 
 import { TbCertificate2 } from "react-icons/tb";
 
@@ -22,6 +21,18 @@ const data = [
 		title: "Martian Certificate",
 		provider: "Persistent Systems",
 		link: "https://drive.google.com/file/d/1sCfTLmNyeN5Pciy3M_U6TgB5U5HO5NiW/view?usp=share_link",
+	},
+	{
+		id: 1,
+		title: "Internship",
+		provider: "Millimetre Labs",
+		link: "https://drive.google.com/file/d/1b_IEDo78dFL0C5Vh8FZgLY1hG1L7uC8Y/view?usp=share_link",
+	},
+	{
+		id: 1,
+		title: "Azure Fundamentals(AZ900)",
+		provider: "Microsoft",
+		link: "https://drive.google.com/file/d/1zfM6OC8yrIRgfGM0zk3w9cg66lW2UWIO/view?usp=share_link",
 	},
 ];
 
